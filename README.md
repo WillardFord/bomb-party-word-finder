@@ -1,5 +1,19 @@
-# bomb-party-word-finder
-This is a word finding repository for the party game
+# **bomb-party-word-finder**
+This is a word finding repository for the party game of the same name hosted [here](https://jklm.fun).
+
+I'm working through the chapters of *Dan Gusfield's Algorithms on strings, trees, and sequences*. I'm going to use the algorithms in this book in seperate implementations 1 by 1 to compare and contrast this specific use case. I'm not yet sure what metrics I am going to measure and plot.
+
+The data structures described below might then not be implemented until later this academic quarter. 
+
+I'm using Java because it is the fastest language I am familiar with, though I intend to learn C++ later this year.
+
+## **Algorithm Z**
+
+
+
+
+
+
 
 We want to quickly find words that have a given substring. This presents two things to keep in mind:
 1) Efficient time complexity to find substring so that the bomb doesn't go off before the time runs out. (space complexity would also be nice)
