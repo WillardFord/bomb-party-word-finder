@@ -5,7 +5,7 @@ I'm working through the chapters of *Dan Gusfield's Algorithms on strings, trees
 
 The data structures described below might then not be implemented until later this academic quarter. 
 
-I'm using Java because it is the fastest language I am familiar with, though I intend to learn C++ later this year.
+I'm using Java because it is the fastest language I am familiar with, though I intend to learn C++ later this year and kiss Java goodbye.
 
 ## **Algorithm Z**
 
