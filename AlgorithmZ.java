@@ -75,7 +75,7 @@ public class AlgorithmZ {
      * search_str that corresponds to the found find_str.
      */
     void find(){
-        for(int index = 1; index < this.Zscores.length ; index ++){
+        for(int index = 1; index < this.Zscores.length ; index += 100){
             if(Zscores[index] == this.find_str_length){
                 int left_index = index - find_str_length - 1;
                 while(search_str.charAt(left_index) != '#') left_index --;
