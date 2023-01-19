@@ -15,7 +15,12 @@ public class AlgorithmZ {
         this.r = 0;
         this.Zscores = null;
     }
-
+    /**
+     * This function takes a search_str and find_str concats them together into a 
+     * processing_str.
+     * Then it generates the Z scores stored in an array Zscores using fundamental 
+     * preprocessing of strings algorithm.
+     */
     void generate_Zscores(String find_str, String search_str){
         this.l = 0;
         this.r = 0;
@@ -62,6 +67,10 @@ public class AlgorithmZ {
         return true;
     }
 
+    /**
+     * This function simply iterates through the Zscores and prints the indices in the 
+     * search_str that corresponds to the found find_str.
+     */
     void find(){
         for(int index = 1; index < this.Zscores.length ; index ++){
             if(Zscores[index] == this.find_str_length){
