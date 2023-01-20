@@ -9,11 +9,11 @@ I'm using Java because it is the fastest language I am familiar with, though I i
 
 ## **Algorithm Z**
 
+This algorithm appends the the search and find string together and does the fundamental preprocessing of data that many string algorithms use. It then iterates over the created Z-scores array to return words that fit the description.
 
+A few altercations have been made for the sake of convenience at the cost of speed that makes the program function better as a tool for the party game Bomb Party.
 
-
-
-
+## General Notes
 
 We want to quickly find words that have a given substring. This presents two things to keep in mind:
 1) Efficient time complexity to find substring so that the bomb doesn't go off before the time runs out. (space complexity would also be nice)
