@@ -3,7 +3,7 @@ This is a word finding tool for the party game of the same name hosted [here](ht
 
 This tool is based of Chapter 1 of *Dan Gusfield's Algorithms on strings, trees, and sequences* where the algorithm is referred to as "The Z Algorithm" on page 9.
 
-I'm used Java because it was the fastest language I was familiar with.
+I used Java because it was the fastest language I was familiar with.
 
 ## **Algorithm Z**
 
